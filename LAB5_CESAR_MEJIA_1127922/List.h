@@ -1,11 +1,11 @@
 #pragma once
-class List
+struct Node
 {
-	struct Node
-	{
-		int data;
-		Node* next;
-	};
+	int data;
+	Node* next;
+};
+class Lista
+{
 private:
 	Node* header = nullptr;
 public:
