@@ -62,11 +62,13 @@ int Lista::IndexOf(int item)
 
 void Lista::Insert(int index, int item)
 {
-	int i;
+
 	Node* aux = header;
-	for (i = 0; i < index; i++)
+
+	for (int i = 0; i < index-1; i++)
 	{
 		aux = aux->next;
+		
 	}
 	aux->data = item;
 }
@@ -74,9 +76,17 @@ void Lista::Insert(int index, int item)
 int Lista::GetItem(int index)
 {
 	Node* aux = header;
-	for (int i = 0; i < index; i++)
+	if (index>0)
 	{
-		aux = aux->next;
+		for (int i = 0; i <= index-1; i++)
+		{
+			aux = aux->next;
+		}
+		return aux->data;
+	}
+	else
+	{
+		return aux->data;
 	}
 	return aux->data;
 }
@@ -108,7 +118,7 @@ int Lista::LastIndexOf(int item)
 	return index;
 }
 
-bool Lista::Remove(int item)
+void Lista::Remove(int item)
 {
 	Node* aux = header;
 	Node* siguiente = nullptr;
@@ -119,25 +129,25 @@ bool Lista::Remove(int item)
 		if (item==aux->data)
 		{
 			siguiente = aux->next;
+			aux = nullptr;
+			contador++;
+		}
+		else
+		{
+			contador++;
 			aux = aux->next;
 		}
-		aux = aux->next;
-		contador++;
 	}
 	if (siguiente!=nullptr)
 	{
 		contador--;
 		aux = header;
-		while (contador > 0)
+		while (contador-1 > 0)
 		{
 			aux = aux->next;
+			contador--;
 		}
 		aux->next = siguiente;
-		return true;
-	}
-	else
-	{
-		return false;
 	}
 }
 
