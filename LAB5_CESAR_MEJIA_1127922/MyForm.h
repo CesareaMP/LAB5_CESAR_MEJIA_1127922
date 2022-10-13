@@ -77,6 +77,14 @@ namespace LAB5CESARMEJIA1127922 {
 	private: System::Windows::Forms::TextBox^ txtremoveat;
 
 	private: System::Windows::Forms::Label^ label9;
+	private: System::Windows::Forms::Panel^ panel1;
+	private: System::Windows::Forms::Panel^ panel2;
+	private: System::Windows::Forms::Panel^ panel3;
+	private: System::Windows::Forms::Panel^ panel4;
+	private: System::Windows::Forms::Panel^ panel5;
+	private: System::Windows::Forms::Panel^ panel6;
+	private: System::Windows::Forms::Panel^ panel7;
+	private: System::Windows::Forms::Panel^ panel8;
 
 	private:
 		/// <summary>
@@ -122,12 +130,28 @@ namespace LAB5CESARMEJIA1127922 {
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->txtremoveat = (gcnew System::Windows::Forms::TextBox());
 			this->label9 = (gcnew System::Windows::Forms::Label());
+			this->panel1 = (gcnew System::Windows::Forms::Panel());
+			this->panel2 = (gcnew System::Windows::Forms::Panel());
+			this->panel3 = (gcnew System::Windows::Forms::Panel());
+			this->panel4 = (gcnew System::Windows::Forms::Panel());
+			this->panel5 = (gcnew System::Windows::Forms::Panel());
+			this->panel6 = (gcnew System::Windows::Forms::Panel());
+			this->panel7 = (gcnew System::Windows::Forms::Panel());
+			this->panel8 = (gcnew System::Windows::Forms::Panel());
+			this->panel1->SuspendLayout();
+			this->panel2->SuspendLayout();
+			this->panel3->SuspendLayout();
+			this->panel4->SuspendLayout();
+			this->panel5->SuspendLayout();
+			this->panel6->SuspendLayout();
+			this->panel7->SuspendLayout();
+			this->panel8->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(36, 36);
+			this->label1->Location = System::Drawing::Point(56, 11);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(90, 16);
 			this->label1->TabIndex = 0;
@@ -135,14 +159,14 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// textBox1
 			// 
-			this->textBox1->Location = System::Drawing::Point(144, 36);
+			this->textBox1->Location = System::Drawing::Point(46, 54);
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(100, 22);
 			this->textBox1->TabIndex = 2;
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(250, 31);
+			this->button1->Location = System::Drawing::Point(59, 113);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 32);
 			this->button1->TabIndex = 3;
@@ -154,14 +178,14 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			this->listBox1->FormattingEnabled = true;
 			this->listBox1->ItemHeight = 16;
-			this->listBox1->Location = System::Drawing::Point(431, 36);
+			this->listBox1->Location = System::Drawing::Point(728, 29);
 			this->listBox1->Name = L"listBox1";
-			this->listBox1->Size = System::Drawing::Size(123, 164);
+			this->listBox1->Size = System::Drawing::Size(131, 468);
 			this->listBox1->TabIndex = 4;
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(250, 90);
+			this->button2->Location = System::Drawing::Point(53, 80);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(75, 32);
 			this->button2->TabIndex = 7;
@@ -172,7 +196,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(36, 90);
+			this->label3->Location = System::Drawing::Point(61, 15);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(55, 16);
 			this->label3->TabIndex = 5;
@@ -181,7 +205,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// txtindexof
 			// 
-			this->txtindexof->Location = System::Drawing::Point(144, 90);
+			this->txtindexof->Location = System::Drawing::Point(44, 42);
 			this->txtindexof->Multiline = true;
 			this->txtindexof->Name = L"txtindexof";
 			this->txtindexof->Size = System::Drawing::Size(100, 24);
@@ -190,7 +214,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(167, 132);
+			this->label2->Location = System::Drawing::Point(61, 129);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(55, 16);
 			this->label2->TabIndex = 9;
@@ -198,7 +222,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(560, 36);
+			this->button3->Location = System::Drawing::Point(751, 517);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(75, 32);
 			this->button3->TabIndex = 10;
@@ -209,14 +233,14 @@ namespace LAB5CESARMEJIA1127922 {
 			// lblcontar
 			// 
 			this->lblcontar->AutoSize = true;
-			this->lblcontar->Location = System::Drawing::Point(141, 176);
+			this->lblcontar->Location = System::Drawing::Point(14, 96);
 			this->lblcontar->Name = L"lblcontar";
 			this->lblcontar->Size = System::Drawing::Size(0, 16);
 			this->lblcontar->TabIndex = 11;
 			// 
 			// button4
 			// 
-			this->button4->Location = System::Drawing::Point(39, 168);
+			this->button4->Location = System::Drawing::Point(64, 34);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(75, 32);
 			this->button4->TabIndex = 12;
@@ -226,7 +250,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// txtexiste
 			// 
-			this->txtexiste->Location = System::Drawing::Point(178, 223);
+			this->txtexiste->Location = System::Drawing::Point(36, 55);
 			this->txtexiste->Multiline = true;
 			this->txtexiste->Name = L"txtexiste";
 			this->txtexiste->Size = System::Drawing::Size(100, 24);
@@ -234,7 +258,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// button5
 			// 
-			this->button5->Location = System::Drawing::Point(293, 218);
+			this->button5->Location = System::Drawing::Point(49, 89);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(75, 32);
 			this->button5->TabIndex = 14;
@@ -245,7 +269,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(36, 223);
+			this->label4->Location = System::Drawing::Point(23, 11);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(136, 32);
 			this->label4->TabIndex = 13;
@@ -254,14 +278,14 @@ namespace LAB5CESARMEJIA1127922 {
 			// lblexiste
 			// 
 			this->lblexiste->AutoSize = true;
-			this->lblexiste->Location = System::Drawing::Point(394, 218);
+			this->lblexiste->Location = System::Drawing::Point(33, 142);
 			this->lblexiste->Name = L"lblexiste";
 			this->lblexiste->Size = System::Drawing::Size(0, 16);
 			this->lblexiste->TabIndex = 16;
 			// 
 			// txtcambioindex
 			// 
-			this->txtcambioindex->Location = System::Drawing::Point(178, 282);
+			this->txtcambioindex->Location = System::Drawing::Point(24, 52);
 			this->txtcambioindex->Multiline = true;
 			this->txtcambioindex->Name = L"txtcambioindex";
 			this->txtcambioindex->Size = System::Drawing::Size(66, 24);
@@ -269,7 +293,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// button6
 			// 
-			this->button6->Location = System::Drawing::Point(331, 277);
+			this->button6->Location = System::Drawing::Point(63, 106);
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(75, 32);
 			this->button6->TabIndex = 18;
@@ -280,7 +304,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(34, 277);
+			this->label5->Location = System::Drawing::Point(24, 7);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(138, 32);
 			this->label5->TabIndex = 17;
@@ -288,7 +312,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// txtcambiovalor
 			// 
-			this->txtcambiovalor->Location = System::Drawing::Point(250, 282);
+			this->txtcambiovalor->Location = System::Drawing::Point(96, 52);
 			this->txtcambiovalor->Multiline = true;
 			this->txtcambiovalor->Name = L"txtcambiovalor";
 			this->txtcambiovalor->Size = System::Drawing::Size(75, 24);
@@ -297,7 +321,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Location = System::Drawing::Point(194, 309);
+			this->label6->Location = System::Drawing::Point(40, 79);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(39, 16);
 			this->label6->TabIndex = 21;
@@ -306,7 +330,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// label7
 			// 
 			this->label7->AutoSize = true;
-			this->label7->Location = System::Drawing::Point(269, 309);
+			this->label7->Location = System::Drawing::Point(115, 79);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(39, 16);
 			this->label7->TabIndex = 22;
@@ -314,7 +338,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// button7
 			// 
-			this->button7->Location = System::Drawing::Point(294, 349);
+			this->button7->Location = System::Drawing::Point(51, 89);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(75, 32);
 			this->button7->TabIndex = 25;
@@ -324,7 +348,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// txtultima
 			// 
-			this->txtultima->Location = System::Drawing::Point(188, 354);
+			this->txtultima->Location = System::Drawing::Point(41, 61);
 			this->txtultima->Name = L"txtultima";
 			this->txtultima->Size = System::Drawing::Size(100, 22);
 			this->txtultima->TabIndex = 24;
@@ -333,7 +357,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// label8
 			// 
 			this->label8->AutoSize = true;
-			this->label8->Location = System::Drawing::Point(34, 341);
+			this->label8->Location = System::Drawing::Point(23, 7);
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(148, 64);
 			this->label8->TabIndex = 23;
@@ -343,14 +367,14 @@ namespace LAB5CESARMEJIA1127922 {
 			// lblultima
 			// 
 			this->lblultima->AutoSize = true;
-			this->lblultima->Location = System::Drawing::Point(394, 360);
+			this->lblultima->Location = System::Drawing::Point(86, 142);
 			this->lblultima->Name = L"lblultima";
 			this->lblultima->Size = System::Drawing::Size(0, 16);
 			this->lblultima->TabIndex = 26;
 			// 
 			// button8
 			// 
-			this->button8->Location = System::Drawing::Point(294, 413);
+			this->button8->Location = System::Drawing::Point(49, 89);
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(75, 32);
 			this->button8->TabIndex = 29;
@@ -360,7 +384,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// txtremove
 			// 
-			this->txtremove->Location = System::Drawing::Point(188, 418);
+			this->txtremove->Location = System::Drawing::Point(34, 52);
 			this->txtremove->Name = L"txtremove";
 			this->txtremove->Size = System::Drawing::Size(100, 22);
 			this->txtremove->TabIndex = 28;
@@ -368,7 +392,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// label10
 			// 
 			this->label10->AutoSize = true;
-			this->label10->Location = System::Drawing::Point(34, 405);
+			this->label10->Location = System::Drawing::Point(17, 8);
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(148, 32);
 			this->label10->TabIndex = 27;
@@ -376,7 +400,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// button9
 			// 
-			this->button9->Location = System::Drawing::Point(294, 473);
+			this->button9->Location = System::Drawing::Point(49, 99);
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(75, 32);
 			this->button9->TabIndex = 32;
@@ -386,7 +410,7 @@ namespace LAB5CESARMEJIA1127922 {
 			// 
 			// txtremoveat
 			// 
-			this->txtremoveat->Location = System::Drawing::Point(188, 478);
+			this->txtremoveat->Location = System::Drawing::Point(34, 60);
 			this->txtremoveat->Name = L"txtremoveat";
 			this->txtremoveat->Size = System::Drawing::Size(100, 22);
 			this->txtremoveat->TabIndex = 31;
@@ -394,53 +418,132 @@ namespace LAB5CESARMEJIA1127922 {
 			// label9
 			// 
 			this->label9->AutoSize = true;
-			this->label9->Location = System::Drawing::Point(34, 465);
+			this->label9->Location = System::Drawing::Point(17, 15);
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(162, 32);
 			this->label9->TabIndex = 30;
 			this->label9->Text = L"Ingrese una posicion para\r\neliminarla de la lista\r\n";
 			// 
+			// panel1
+			// 
+			this->panel1->Controls->Add(this->label1);
+			this->panel1->Controls->Add(this->textBox1);
+			this->panel1->Controls->Add(this->button1);
+			this->panel1->Location = System::Drawing::Point(37, 28);
+			this->panel1->Name = L"panel1";
+			this->panel1->Size = System::Drawing::Size(196, 172);
+			this->panel1->TabIndex = 33;
+			// 
+			// panel2
+			// 
+			this->panel2->Controls->Add(this->label3);
+			this->panel2->Controls->Add(this->txtindexof);
+			this->panel2->Controls->Add(this->button2);
+			this->panel2->Controls->Add(this->label2);
+			this->panel2->Location = System::Drawing::Point(269, 28);
+			this->panel2->Name = L"panel2";
+			this->panel2->Size = System::Drawing::Size(196, 169);
+			this->panel2->TabIndex = 34;
+			// 
+			// panel3
+			// 
+			this->panel3->Controls->Add(this->button4);
+			this->panel3->Controls->Add(this->lblcontar);
+			this->panel3->Location = System::Drawing::Point(498, 28);
+			this->panel3->Name = L"panel3";
+			this->panel3->Size = System::Drawing::Size(193, 169);
+			this->panel3->TabIndex = 10;
+			// 
+			// panel4
+			// 
+			this->panel4->Controls->Add(this->label4);
+			this->panel4->Controls->Add(this->txtexiste);
+			this->panel4->Controls->Add(this->button5);
+			this->panel4->Controls->Add(this->lblexiste);
+			this->panel4->Location = System::Drawing::Point(40, 220);
+			this->panel4->Name = L"panel4";
+			this->panel4->Size = System::Drawing::Size(193, 169);
+			this->panel4->TabIndex = 35;
+			// 
+			// panel5
+			// 
+			this->panel5->Controls->Add(this->label5);
+			this->panel5->Controls->Add(this->txtcambiovalor);
+			this->panel5->Controls->Add(this->txtcambioindex);
+			this->panel5->Controls->Add(this->label6);
+			this->panel5->Controls->Add(this->label7);
+			this->panel5->Controls->Add(this->button6);
+			this->panel5->Location = System::Drawing::Point(269, 220);
+			this->panel5->Name = L"panel5";
+			this->panel5->Size = System::Drawing::Size(193, 169);
+			this->panel5->TabIndex = 36;
+			// 
+			// panel6
+			// 
+			this->panel6->Controls->Add(this->label8);
+			this->panel6->Controls->Add(this->txtultima);
+			this->panel6->Controls->Add(this->button7);
+			this->panel6->Controls->Add(this->lblultima);
+			this->panel6->Location = System::Drawing::Point(498, 220);
+			this->panel6->Name = L"panel6";
+			this->panel6->Size = System::Drawing::Size(193, 166);
+			this->panel6->TabIndex = 37;
+			// 
+			// panel7
+			// 
+			this->panel7->Controls->Add(this->label10);
+			this->panel7->Controls->Add(this->txtremove);
+			this->panel7->Controls->Add(this->button8);
+			this->panel7->Location = System::Drawing::Point(43, 413);
+			this->panel7->Name = L"panel7";
+			this->panel7->Size = System::Drawing::Size(190, 163);
+			this->panel7->TabIndex = 38;
+			// 
+			// panel8
+			// 
+			this->panel8->Controls->Add(this->label9);
+			this->panel8->Controls->Add(this->txtremoveat);
+			this->panel8->Controls->Add(this->button9);
+			this->panel8->Location = System::Drawing::Point(269, 418);
+			this->panel8->Name = L"panel8";
+			this->panel8->Size = System::Drawing::Size(190, 160);
+			this->panel8->TabIndex = 39;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(684, 558);
-			this->Controls->Add(this->button9);
-			this->Controls->Add(this->txtremoveat);
-			this->Controls->Add(this->label9);
-			this->Controls->Add(this->button8);
-			this->Controls->Add(this->txtremove);
-			this->Controls->Add(this->label10);
-			this->Controls->Add(this->lblultima);
-			this->Controls->Add(this->button7);
-			this->Controls->Add(this->txtultima);
-			this->Controls->Add(this->label8);
-			this->Controls->Add(this->label7);
-			this->Controls->Add(this->label6);
-			this->Controls->Add(this->txtcambiovalor);
-			this->Controls->Add(this->txtcambioindex);
-			this->Controls->Add(this->button6);
-			this->Controls->Add(this->label5);
-			this->Controls->Add(this->lblexiste);
-			this->Controls->Add(this->txtexiste);
-			this->Controls->Add(this->button5);
-			this->Controls->Add(this->label4);
-			this->Controls->Add(this->button4);
-			this->Controls->Add(this->lblcontar);
+			this->ClientSize = System::Drawing::Size(896, 620);
+			this->Controls->Add(this->panel8);
+			this->Controls->Add(this->panel7);
+			this->Controls->Add(this->panel6);
+			this->Controls->Add(this->panel5);
+			this->Controls->Add(this->panel4);
+			this->Controls->Add(this->panel3);
+			this->Controls->Add(this->panel2);
+			this->Controls->Add(this->panel1);
 			this->Controls->Add(this->button3);
-			this->Controls->Add(this->label2);
-			this->Controls->Add(this->txtindexof);
-			this->Controls->Add(this->button2);
-			this->Controls->Add(this->label3);
 			this->Controls->Add(this->listBox1);
-			this->Controls->Add(this->button1);
-			this->Controls->Add(this->textBox1);
-			this->Controls->Add(this->label1);
 			this->Name = L"MyForm";
 			this->Text = L"MyForm";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
+			this->panel1->ResumeLayout(false);
+			this->panel1->PerformLayout();
+			this->panel2->ResumeLayout(false);
+			this->panel2->PerformLayout();
+			this->panel3->ResumeLayout(false);
+			this->panel3->PerformLayout();
+			this->panel4->ResumeLayout(false);
+			this->panel4->PerformLayout();
+			this->panel5->ResumeLayout(false);
+			this->panel5->PerformLayout();
+			this->panel6->ResumeLayout(false);
+			this->panel6->PerformLayout();
+			this->panel7->ResumeLayout(false);
+			this->panel7->PerformLayout();
+			this->panel8->ResumeLayout(false);
+			this->panel8->PerformLayout();
 			this->ResumeLayout(false);
-			this->PerformLayout();
 
 		}
 #pragma endregion
@@ -468,9 +571,10 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 	nuevalista.Clear();
 }
 private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
-	lblcontar->Text = "La cantidad de elementos en la lista es: " + Convert::ToString(nuevalista.Count());
+	lblcontar->Text = "La cantidad de elementos \n en la lista es : " + Convert::ToString(nuevalista.Count());
 }
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
+	lblexiste->Text = "";
 	if (nuevalista.Contains(Convert::ToInt32(txtexiste->Text)))
 	{
 		lblexiste->Text = "Si existe";
@@ -479,7 +583,7 @@ private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e
 	{
 		lblexiste->Text = "No existe";
 	}
-	lblexiste->Text = "";
+
 }
 private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
 	int contador = nuevalista.Count(), daniel=contador-Convert::ToInt32(txtcambioindex->Text);
