@@ -508,7 +508,7 @@ private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e
 }
 private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
 	listBox1->Items->Clear();
-	nuevalista.RemoveAt(Convert::ToInt32(txtremoveat->Text));
+	nuevalista.RemoveAt(nuevalista.Count() - 1 - Convert::ToInt32(txtremoveat->Text), nuevalista.Count() - 1);
 	for (int i = 0; i <= nuevalista.Count() - 1; i++)
 	{
 		listBox1->Items->Add(Convert::ToString(nuevalista.GetItem(i)));

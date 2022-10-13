@@ -19,6 +19,6 @@ public:
 	void SetItem(int index, int item);
 	int LastIndexOf(int item);
 	void Remove(int item);
-	void RemoveAt(int index);
+	void RemoveAt(int index, int max);
 };
 

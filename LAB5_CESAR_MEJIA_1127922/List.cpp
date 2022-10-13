@@ -151,24 +151,57 @@ void Lista::Remove(int item)
 	}
 }
 
-void Lista::RemoveAt(int index)
+void Lista::RemoveAt(int index, int max)
 {
 	Node* aux = header;
 	Node* siguiente = nullptr;
 	int contador = 0;
-	while (contador<=index)
+	
+	if (index==0)
 	{
-		aux = aux->next;
-		contador++;
+		header = header->next;
 	}
-	if (aux != nullptr)
+	else if (max==index)
 	{
-		siguiente = aux->next;
-		aux = header;
-		for (int i = 0; i < contador; i++)
+		while (contador < index-1)
 		{
 			aux = aux->next;
+			
+			if (contador==index-2)
+			{
+				aux->next = nullptr; contador++;
+			}
+			else
+			{
+				contador++;
+				
+			}
+	}
+	}
+	else if (index>0 && index<max)
+	{
+		while (contador <= index)
+		{
+			if (contador == index)
+			{
+				siguiente = aux->next;
+				contador++;
+			}
+			else
+			{
+				aux = aux->next;
+				contador++;
+			}
+		}aux = header;
+		if (siguiente != nullptr)
+		{
+			contador = contador - 2;
+			while (contador > 0)
+			{
+				aux = aux->next;
+				contador--;
+			}
 		}
-		aux = siguiente;
+		aux->next = siguiente;
 	}
 }
